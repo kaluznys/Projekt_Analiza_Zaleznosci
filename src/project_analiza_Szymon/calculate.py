@@ -36,7 +36,7 @@ def stat_wplyw_outlier(x, y):
     sigma = np.sqrt(1/(n-2)*sum(e**2))
     resid_stud = e/(sigma*np.sqrt(1-h))
     cook_dist = (resid_stud**2)*h/(2*(1-h))
-    mask = (np.abs(resid_stud) > 2) & (cook_dist > 1)
+    mask = (np.abs(resid_stud) > 2) & (cook_dist > 0.5)
     ind_wplyw_odst = np.where(mask)[0]
     return resid_stud, cook_dist, ind_wplyw_odst
 

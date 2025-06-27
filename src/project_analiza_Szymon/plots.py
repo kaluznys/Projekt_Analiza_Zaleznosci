@@ -4,12 +4,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 from .calculate import regresja
 
-def plot_regr_poz_lud(x,y):
+def plot_regr_poz_lud(x,y, xlab = "Ludność ogółem", ylab = "Pożary rok 2024", title = "Pożary względem liczby ludności"):
     '''wykres regresji'''
     plt.scatter(x, y)
-    plt.xlabel("Ludność ogółem")
-    plt.ylabel("Pożary rok 2024")
-    plt.title("Pożary względem liczby ludności")
+    plt.xlabel(xlab)
+    plt.ylabel(ylab)
+    plt.title(title)
     x_nowe, y_pred = regresja(x, y)
     plt.plot(x_nowe, y_pred, color='red', label='Regresja')
     plt.legend()
