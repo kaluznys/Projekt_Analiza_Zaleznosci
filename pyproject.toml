@@ -1,27 +1,25 @@
+[project]
+name = "analiza_zaleznosci"
+version = "0.1.0"
+description = "Służy do analizy korelacji między kilkoma zjawiskami"
+authors = [
+    { name = "Szymon Kałużny"}
+]
+requires-python = ">=3.9"
+dependencies = ['matplotlib',
+'numpy',
+'pandas',
+'pytest',
+'scikit_learn'
+]
+
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
-[project]
-name = "your_package_name"
-version = "0.1.0"
-description = "A short description of your package"
-authors = [
-    { name="Your Name", email="your.email@example.com" }
-]
-readme = "README.md"
-license = { text = "MIT" }
-requires-python = ">=3.8"
-dependencies = [
-    "requests",
-    "numpy>=1.21.0"
-]
-
 [project.urls]
-Homepage = "https://github.com/yourusername/yourproject"
+Homepage = "https://gitlab.mimuw.edu.pl/sk468753/prace_z_narzedzi"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
 
-[tool.setuptools.packages.find]
-where = ["src"]

@@ -1,0 +1,21 @@
+# projekt analizy danych - analiza_zalezności
+
+Projekt ten dotyczy analizy zależności między różnymi zjawiskami takimi jak pożary, liczba ludności, mieszkalnictwo i zezwolenia na handel alkoholem.
+
+---
+
+## Opis
+
+Projekt zawiera szereg potrzebnym funkcji i modułów do pracy z danymi. Jego działanie obejmuje między innymi:
+
+- Wczytanie i wstępne przetwarzanie danych
+- Eksploracyjną analizę danych
+- Wizualizacje
+- interpretację wyników
+- Zapis danych do pliku
+- Profiling projektu
+- Testy
+
+---
+
+
