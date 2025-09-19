@@ -5,7 +5,7 @@ import pandas as pd
 from unittest.mock import patch
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__),\
-                                                '..',"..", 'analiza_zaleznosci')))
+                                                '..',"..", 'Projekt_Analiza_Zaleznosci')))
 from src.project_analiza_Szymon.io_utils.read import load_data_from_folder
 from src.project_analiza_Szymon.io_utils.write import writing_stats
 

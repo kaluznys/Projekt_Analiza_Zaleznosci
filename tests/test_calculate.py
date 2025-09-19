@@ -3,7 +3,7 @@ import sys
 import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__),\
-                                                '..',"..", 'analiza_zaleznosci')))
+                                                '..',"..", 'Projekt_Analiza_Zaleznosci')))
 
 from src.project_analiza_Szymon.calculate import *
 
